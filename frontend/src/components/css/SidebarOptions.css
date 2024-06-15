@@ -1,0 +1,41 @@
+.spaceCards{
+    display: flex;
+    flex-direction: column;
+}
+
+.space-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.space-card:hover {
+    background: rgb(211, 211, 211);
+    border-radius: 5px;
+}
+
+.space-card>img {
+    width: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.space-card>.MuiSvgIcon-root {
+    font-size: medium;
+    margin-left: 20px;
+}
+
+.space-card>p {
+    margin-left: 10px;
+    color: gray;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.space-card>.text {
+    margin-left: 23px;
+    color: gray;
+    font-weight: 400;
+    font-size: 13px;
+}
